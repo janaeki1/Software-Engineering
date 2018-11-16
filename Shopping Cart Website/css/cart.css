@@ -1,0 +1,151 @@
+body{
+	background-color: #f2f2f2;
+}
+
+.cart_outer h1 {
+	width: 34em;
+	clear: both;
+	display: block;
+	margin: .5em auto;
+}
+
+.cart {
+	max-width: 70em;
+	min-width: 50em;
+	margin: auto;
+	clear: both;
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart input {
+	padding: .2em;
+	font-size: 16px;
+	width: 2em;
+	position: relative;
+	z-index: 1;
+}
+
+.cart_list {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	width: 75%;
+	margin-bottom: 3em;
+}
+
+.cart_list li {
+	height: 12em;
+	list-style-type: none;
+	border: 2px solid #cccccc;
+	margin: 1em 0;
+	padding: 1em;
+	background-color: white;
+	position: relative;
+	z-index: 1;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.cart_list h4{
+	color: #0052cc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	margin-left: 13em;
+	cursor: pointer;
+}
+
+.cart_list h4:hover {
+	color: #ff9900;
+	text-decoration: underline;
+}
+
+.cart_list p {
+	margin-left: 14em;
+}
+
+.cart_list span {
+	color: #0052cc;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.cart_list span:hover {
+	text-decoration: underline;
+}
+
+.cart_list .remove {
+	margin-left: 2em;
+	bottom: 2.5em;
+	position: absolute;
+}
+
+.cart_list .price {
+	text-align: right;
+	bottom: 1em;
+	right: 2em;
+	position: absolute;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.cart_total {
+	width: 12em;
+	height: 100%;
+	border: 2px solid #cccccc;
+	margin: 1em;
+	padding: 1em;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.cart_total h2{
+	margin: 0;
+}
+
+.product_img {
+	display: block;
+	height: 12em;
+	width: 12em;
+	cursor: pointer;
+	border: 1px solid #cccccc;
+	position: relative;
+	float: left;
+}
+
+.product_img img {
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	cursor: pointer;
+}
+
+.cart_total h3 {
+	margin: 0;
+}
+
+.cart_total button {
+	background-color: #0047b3;
+    border: none;
+	border-radius: 3px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	bottom: 0;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.cart_total button:hover {
+	background-color: #1a75ff;
+}
